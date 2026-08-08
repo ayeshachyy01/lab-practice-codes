@@ -70,7 +70,7 @@ int main(){
     cout<< "its safe"<<endl;
     cout<<"safe sequence:" <<endl;
     for(int i=0 ; i<p; i++){
-           cout<<safe[i]+1;
+           cout<<"P"<<safe[i]+1;
            if(i!=p-1){
                cout<<" -> ";
         }
